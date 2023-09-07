@@ -6,7 +6,7 @@ pipeline {
                 echo "build done ..."
                 bat """
                     start cmd.exe /c
-                    docker run -d -v D:/AUTOMATION_Pracice/Reports/report:/app/Allurerp cont2
+                    docker run -d -v D:/AUTOMATION_Pracice/Reports/report:/app/Allurerp cont_2
                     """
             }
         }
