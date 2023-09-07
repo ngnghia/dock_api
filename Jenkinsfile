@@ -1,7 +1,5 @@
 pipeline {
-    agent {
-        docker { image 'goofy_goldberg' }
-    }
+    agent any
     stages {
         stage('Test') {
             steps {
